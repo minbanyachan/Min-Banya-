@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+  font-size: 15px;
+  font-family: "Sofia", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(MBS.jpg);
+}
+.container {
+  width: 500px;
+  padding: 50px;
+  border: 1px solid #f37777;
+  border-radius: 10px;
+  background-color: #003b5b;
+}
+h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+textarea{
+  padding: 10px;
+  width: 100%;
+}
+label {
+  padding: 10px;
+  color: #fff;
+}
+select {
+  padding: 5px;
+}
+#submit {
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#submit:hover {
+  background-color: #c51d1d;
+}
+select option{
+  padding: 10px;
+}
